@@ -1,35 +1,30 @@
-section {
-  position: relative;
-}
-
-.section-content {
-  text-align: center;
-}
-* {
-	box-sizing: border-box;
-}
-html {
+body {
+	margin: 0;
+	padding: 0;
 	font-family: sans-serif;
-	scroll-snap-type: mandatory;
-	scroll-snap-points-y: repeat(100vh);
-	scroll-snap-type: y mandatory;
-}
-section {
-	border-bottom: 1px solid white;
-	padding: 1rem;
-	height: 100vh;
-	scroll-snap-align: start;
-	text-align: center;
-	position: relative;
-}
-h1	{
-	position: absolute;
-	top: 50%;
-	transform: translateY(-50%);
-	text-align: center;
-	color: black;
-	width: 100%;
-	left: 0;
-	font-size: calc(1rem + 3vw);
 }
 
+.gallery {
+	display: grid;
+	grid-template-columns: repeat(10, 100vh);
+	grid-template-rows: repeat(10, 100vh);
+	flex-wrap: wrap;
+	overflow: scroll;
+	height: 100vh;
+	scroll-snap-type: both mandatory;
+	scroll-padding: 1rem;
+}
+
+li {
+	scroll-snap-align: center;
+	display: inline-block;
+	border-radius: 3px;
+	font-size: 1rem;
+	text-align: center;
+	/* center text horizontally and vertically */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}

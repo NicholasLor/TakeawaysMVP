@@ -11,7 +11,7 @@ function generateColorCode() {
 var color = generateColorCode();
 console.log(color);
 const init = function(){
-let items = document.querySelectorAll('section');
+let items = document.querySelectorAll('.gallery li');
 for (let i = 0; i < items.length; i++){
 
   items[i].style.background = generateColorCode();
