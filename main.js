@@ -1,6 +1,3 @@
-import './style.css'
-
-
 function generateColorCode() {
   // Generate random color code
   var colorCode = '#' + Math.floor(Math.random() * 16777215).toString(16);
