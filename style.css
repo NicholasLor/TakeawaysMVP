@@ -3,10 +3,10 @@
     scroll-snap-type: y mandatory;
   }
 
-  @font-face {
-    font-family: 'Bayon-REgular';
-    src: url('../fonts/Bayon-Regular.ttf');
-    }
+@font-face {
+font-family: 'Bayon-REgular';
+src: url('fonts/Bayon-Regular.ttf');
+}
 
 #titlefont {
     font-family: 'Bayon-Regular';
@@ -18,6 +18,6 @@
 
   
 .card {
-    height: 80vh;
+    height: 100vh;
     scroll-snap-align: start;
   }
