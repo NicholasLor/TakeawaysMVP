@@ -1,0 +1,10 @@
+  /* Add custom CSS styles */
+  html { /* body won't work ¯\_(ツ)_/¯ */
+    scroll-snap-type: y mandatory;
+  }
+
+  
+.card {
+    height: 100vh;
+    scroll-snap-align: start;
+  }
