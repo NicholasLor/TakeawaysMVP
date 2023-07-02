@@ -3,8 +3,21 @@
     scroll-snap-type: y mandatory;
   }
 
+  @font-face {
+    font-family: 'Bayon-REgular';
+    src: url('../fonts/Bayon-Regular.ttf');
+    }
+
+#titlefont {
+    font-family: 'Bayon-Regular';
+}
+
+.navbar-brand {
+    margin-left: 20px;
+  }
+
   
 .card {
-    height: 100vh;
+    height: 80vh;
     scroll-snap-align: start;
   }
