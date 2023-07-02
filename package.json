@@ -10,5 +10,8 @@
   },
   "devDependencies": {
     "vite": "^4.3.9"
+  },
+  "dependencies": {
+    "tiny-slider": "^2.9.4"
   }
 }
