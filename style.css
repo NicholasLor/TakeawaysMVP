@@ -1,9 +1,9 @@
   /* Add custom CSS styles */
-  html { /* body won't work ¯\_(ツ)_/¯ */
+  /* html { 
     scroll-snap-type: y mandatory;
-  }
+  } */
   
 .card {
     height: 100vh;
-    scroll-snap-align: start;
+    /* scroll-snap-align: start; */
   }
