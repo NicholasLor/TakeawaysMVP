@@ -1,11 +1,11 @@
   /* Add custom CSS styles */
-  /* html { 
+  html { 
     scroll-snap-type: y mandatory;
-  } */
+  }
   
-.card {
+.swiper {
     height: 100%;
-    /* scroll-snap-align: start; */
+    scroll-snap-align: start;
   }
 
 .navbar-brand {
