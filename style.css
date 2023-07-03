@@ -4,7 +4,7 @@
   } */
   
 .card {
-    height: 100vh;
+    height: 100%;
     /* scroll-snap-align: start; */
   }
 
@@ -12,3 +12,20 @@
   margin-left: 5%;
 
 }
+
+/* add a the bayon-regular font face in my fonts folder */
+
+@font-face {
+  font-family: 'bayon-regular';
+  src: url('../fonts/bayon-regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#titlefont {
+  font-family: 'bayon-regular';
+  font-size: 1.50rem;
+}
+
+
+
