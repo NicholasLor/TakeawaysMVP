@@ -1,13 +1,12 @@
 <!doctype html>
 <html lang="en" data-bs-theme="auto">
-  <head><script src="../assets/js/color-modes.js"></script>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.112.5">
-    <title>List groups · Bootstrap v5.3</title>
+    <title>Takeaways</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/list-groups/">
 
@@ -16,8 +15,11 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="list-groups.css">
-    
+    <link rel="stylesheet" href="styles/list-groups.css">
+    <script type="module" src="js/firebase_init.js" type="text/javascript"></script>
+    <script type="module" src="js/get_takeaways.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+
 
 
     <style>
@@ -96,11 +98,11 @@
 
     
     <!-- Custom styles for this template -->
-    <link href="list-groups.css" rel="stylesheet">
+    <link href="styles/list-groups.css" rel="stylesheet">
 
     <nav class="navbar fixed-top navbar-light bg-white">
       <a class="navbar-brand" id="titlefont">
-        Project Portfolio
+        Takeaways
       </a>
       <a>
         <img width=50% src="media/icons8-share-48.png">
@@ -179,19 +181,19 @@
 </svg>
 
 <div class="d-flex flex-column flex-md-row p-4 gap-4 py-md-5 align-items-center justify-content-center">
-  <div class="list-group">
-    <a href="main.html" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+  <div class="list-group" id="test">
+    <!-- <a href="main.html" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
       <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
       <div class="d-flex gap-2 w-100 justify-content-between">
         <div>
-          <h6 class="mb-0">Takeaways</h6>
+          <h6 class="mb-0">Project Portfolio</h6>
           <p class="mb-0 opacity-75">Software Dev</p>
           <p class="mb-0 opacity-75"></p>
         </div>
         <small class="opacity-50 text-nowrap">1d</small>
       </div>
     </a>
-    <a href="#" class="list-group-item list-group-item-action d-flex gap-3 py-3" aria-current="true">
+    <a href="#" class="list-group-item list-group-item-action d-flex gap-4 py-3" aria-current="true">
       <img src="https://github.com/twbs.png" alt="twbs" width="32" height="32" class="rounded-circle flex-shrink-0">
       <div class="d-flex gap-2 w-100 justify-content-between">
         <div>
@@ -210,11 +212,29 @@
         </div>
         <small class="opacity-50 text-nowrap">1w</small>
       </div>
+    </a> -->
+    <a href="create_takeaway.html" class="list-group-item list-group-item-action d-flex gap-4 py-3" aria-current="true">
+      <span class="material-symbols-outlined">
+        library_add
+        </span>
+      <div class="d-flex gap-2 w-100 justify-content-between">
+        <div>
+          <h6 class="mb-0">New Takeaway</h6>
+          <!-- <p class="mb-0 opacity-75">Toronto - Aug 20</p> -->
+        </div>
+        <!-- <small class="opacity-50 text-nowrap">1w</small> -->
+      </div>
     </a>
   </div>
 </div>
 
-<script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+</div>
+
+
+
+
+
 
     </body>
 </html>

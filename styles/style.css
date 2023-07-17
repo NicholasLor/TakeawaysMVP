@@ -1,0 +1,26 @@
+  /* Add custom CSS styles */
+  /* html { 
+    scroll-snap-type: y mandatory;
+  }
+   */
+.swiper {
+  height: 100vh;
+  /* scroll-snap-align: start; */
+}
+
+.navbar-brand {
+  margin-left: 5%;
+
+}
+
+@font-face {
+  font-family: 'bayon-regular';
+  src: url('../fonts/Bayon-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+#titlefont {
+  font-family: 'bayon-regular';
+  font-size: 1.50rem;
+}
